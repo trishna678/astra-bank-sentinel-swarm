@@ -1,3 +1,4 @@
+const runAgenticSwarm = require('./agents/agentOrchestrator');
 const http=require('http'),fs=require('fs'),path=require('path'),crypto=require('crypto'),url=require('url');
 const PORT=process.env.PORT||3000, ROOT=path.join(__dirname,'public');
 const sessions=new Map();
