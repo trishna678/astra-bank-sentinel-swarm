@@ -1,4 +1,8 @@
-# Astra Bank — Sentinel Swarm
+Project Banner / Title: # Astra Bank Sentinel Swarm
+
+Live Demo Link: 🚀 Live App: [https://astra-bank-sentinel-swarm.onrender.com/](https://astra-bank-sentinel-swarm.onrender.com/)
+Agentic Architecture Diagram: Add an ASCII or Markdown flow chart showing Goal -> Decide -> Tool Use -> Observe -> Finish.
+Agent Roles & Tools: List Scout Agent, Investigator Agent, and Case Writer Agent alongside the functions/tools they call (checkIpLocation, calculateVelocityScore).
 
 Full-stack hackathon demo combining a banking portal, multi-agent fraud investigation workflow, RAG knowledge base, privacy-preserving Risk Passport, and a human-in-the-loop decision gate.
 
@@ -9,6 +13,7 @@ Full-stack hackathon demo combining a banking portal, multi-agent fraud investig
 - RAG: small local fraud/security knowledge base exposed through `/api/rag/search`.
 - Evaluation: deterministic 1,000-row synthetic transaction run with planted anomaly patterns and a benign control case.
 - Privacy: SHA-256 commitment-based passport prototype. It is intentionally described as a prototype, not a formal ZK-SNARK/PLONK system.
+  
 
 ## Run locally
 1. Install Node.js 18+. No npm packages are required.
