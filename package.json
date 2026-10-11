@@ -4,6 +4,12 @@
   "private": true,
   "description": "Astra Bank Sentinel Swarm full-stack hackathon demo",
   "main": "server.js",
-  "scripts": { "start": "node server.js", "dev": "node server.js" },
-  "engines": { "node": ">=18" }
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
