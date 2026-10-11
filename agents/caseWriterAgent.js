@@ -91,4 +91,4 @@ function caseWriterAgent(investigation = {}) {
   };
 }
 
-module.exports = { caseWriterAgent };
+module.exports = caseWriterAgent;
